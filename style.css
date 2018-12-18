@@ -1,0 +1,144 @@
+.container {
+    padding: 16px;
+    text-align: center;
+}
+
+.containerbox{
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+    background:white;
+    margin-top: 20px;
+    
+}
+
+.containerbox ul{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.containerbox ul li{
+    float:left;
+    list-style: none;
+    width:90%;
+    height:290px;
+    background: white;
+    margin :20px 0px 20px 55px; 
+    border:1px solid rgb(200, 200, 204);
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+.containerbox ul li:hover{
+    opacity: 0.8;
+}
+
+.containerbox ul li .bottom{
+    width: 100%;
+    height:30px;
+    line-height: 30px;
+    background: rgb(173, 173, 175);    
+    text-align: left;
+    color:black;
+    font-size: 20px;
+   
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+  }
+  
+  .grid-item {
+
+    border: 1px ;
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px 60px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 12px;
+
+}
+
+input[type=text], select, textarea {
+   
+    padding: 10px;
+    border: 0.5px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+input[type=date]{
+   
+    padding: 10px;
+    border: 0.5px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+  }
+.button2 {
+    background-color: #008CBA;
+    border: none;
+    color: white;
+    padding:20px 60px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+
+} /* Blue */
+.button3 {
+    background-color: #f44336;
+    border: none;
+    color: white;
+    padding: 20px 60px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+
+
+} /* Red */ 
+
+@media screen and (max-width:1250px){
+    .containerbox ul li{
+        width:40%;
+        margin-left: 40px;
+    }
+         
+}
